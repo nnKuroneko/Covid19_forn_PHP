@@ -1,0 +1,112 @@
+
+
+
+
+
+/*===========================
+     09 .Freequently css 
+===========================*/
+
+.freequently{
+
+
+
+
+
+
+	.services-content{
+	    position: relative;
+	    
+	    &::before{
+	        width: 5px;
+	        height: 100%;
+	        position: absolute;
+	        content: '';
+	        left: -10px;
+	        top: 0;
+	        background-color: $theme-blue-btn;border-radius: 3px;
+	        
+	        @media #{$xs}{
+	            left: -10px;
+	        }
+	    }
+	    & .single-services{
+	        padding: 30px;
+	        border-radius: 5px;
+	        position: relative;
+	        
+	        & .services-title{
+	            font-size: 24px;
+	            color: $heading-color;
+	            padding-bottom: 15px;
+
+	            @media #{$xs}{
+	                font-size: 20px;
+	            }
+	        }
+	        &::before{
+	            width: 5px;
+	            height: 0;
+	            position: absolute;
+	            content: '';
+	            left: -26px;
+	            bottom: 0;
+	            background-color: $theme-orange-btn;
+	            @include transition(0.3s);
+	            
+	            @media #{$xs}{
+	                left: -26px;
+	            }
+	        }
+	        &:hover{
+	            @include box-shadow(-6px 6px 24px 0px rgba(201,201,201,0.35));
+	            
+	            &::before{
+	                height: 100%;
+	                top: 0;
+	                bottom: auto;
+	            }
+	        }
+	    }
+	    
+	    & .active{
+	        & .single-services{
+	            @include box-shadow(-6px 6px 24px 0px rgba(201,201,201,0.35));
+	            
+	            h4{
+	            	color: $theme-orange-btn;
+	            }
+	            &::before{
+	                height: 100%;
+	                top: 0;
+	                bottom: auto;
+	            }
+	        }
+	    }
+	    
+
+	    
+	   
+	}
+
+
+	.services-image{
+	    & img{
+	        width: 100%;
+	    }
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,219 @@
+/*===========================
+  05 About us css 
+===========================*/
+
+.about_corona{
+
+
+	position: relative;
+
+
+			.about_image {
+			position: absolute;
+			    top: 14%;
+			    left: 0;
+			    width: 48%;
+			    height: 100%;
+
+		    @media #{$md}{
+		        position: relative;
+		        width: 720px;
+		        margin: 0 auto;
+		        padding-left: 15px;
+		        padding-right: 15px;
+		    }
+		    @media #{$xs}{
+		        position: relative;
+		        width: 100%;
+		        margin: 0 auto;
+		        padding-left: 15px;
+		        padding-right: 15px;
+		    }
+		    
+		    @media #{$sm}{
+		        width: 540px;
+		    }
+		    
+		    & .image{
+		        & img{
+		            
+		        }
+		    }
+
+
+
+			    
+			}
+
+
+
+	.about_info{
+
+
+		ul{
+			li{
+				color: $heading-color;font-size: 20px;
+    line-height: 40px;
+
+    	i{
+    		color: $theme-blue-btn;
+    	}
+}
+		}
+	}
+
+
+
+
+
+
+
+
+}
+
+
+// About Us 2
+
+
+
+.about_corona2{
+
+
+	position: relative;
+
+
+			.about_image {
+			position: absolute;
+			    top: 14%;
+			    right: 0;
+			    width: 48%;
+			    height: 100%;
+
+		    @media #{$md}{
+		        position: relative;
+		        width: 720px;
+		        margin: 0 auto;
+		        padding-left: 15px;
+		        padding-right: 15px;
+		    }
+		    @media #{$xs}{
+		        position: relative;
+		        width: 100%;
+		        margin: 0 auto;
+		        padding-left: 15px;
+		        padding-right: 15px;
+		    }
+		    
+		    @media #{$sm}{
+		        width: 540px;
+		    }
+		    
+		    & .image{
+		        & img{
+		            
+		        }
+		    }
+
+
+
+			    
+			}
+
+
+
+	.about_info{
+
+
+		ul{
+			li{
+				color: $heading-color;font-size: 20px;
+    line-height: 40px;
+
+    	i{
+    		color: $theme-orange-btn;
+    	}
+}
+		}
+	}
+
+
+
+
+
+
+
+
+}
+
+
+
+// More information 
+
+.more_info_corona{
+
+
+	position: relative;
+
+
+			.about_image {
+			position: absolute;
+			    top: 14%;
+			    left: 0;
+			    width: 48%;
+			    height: 100%;
+
+		    @media #{$md}{
+		        position: relative;
+		        width: 720px;
+		        margin: 0 auto;
+		        padding-left: 15px;
+		        padding-right: 15px;
+		    }
+		    @media #{$xs}{
+		        position: relative;
+		        width: 100%;
+		        margin: 0 auto;
+		        padding-left: 15px;
+		        padding-right: 15px;
+		    }
+		    
+		    @media #{$sm}{
+		        width: 540px;
+		    }
+		    
+		    & .image{
+		        & img{
+		            
+		        }
+		    }
+
+
+
+			    
+			}
+
+
+
+	.about_info{
+
+
+		ul{
+			li{
+				color: $heading-color;font-size: 20px;
+    line-height: 40px;
+
+    	i{
+    		color: $theme-orange-btn
+    	}
+}
+		}
+	}
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,588 @@
+
+
+
+/*===========================
+        14 .CONACT css 
+===========================*/
+
+
+.contact_area{
+    position: relative;z-index: 12;
+
+
+      .contact_thumb {
+      position: absolute;
+          top: 14%;
+          left: 0;
+          width: 48%;
+          height: 100%;
+
+        @media #{$md}{
+            position: relative;
+            width: 720px;
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        @media #{$xs}{
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        @media #{$sm}{
+            width: 540px;
+        }
+        
+        & .image{
+            & img{
+                
+            }
+        }
+
+
+
+          
+      }
+
+    .single_form{
+        position: relative;
+        z-index: 12;
+        & textarea,
+        & input{
+            width: 100%;
+            height: 55px;
+            border: 1px solid $theme-primary-bg;
+            border-radius: 5px;
+            padding: 0 25px;
+            color: $body-color;
+            font-size: 16px;background: $theme-primary-bg;@include transition(0.3s);
+        }
+        
+        & textarea{
+            height: 150px;
+            padding-top: 15px;
+            resize: none;
+            border-radius: 5px;background: $theme-primary-bg;@include transition(0.3s);
+        }
+        & input:focus {
+           border: 1px solid $theme-blue-btn;@include transition(0.5s);
+        }
+        & textarea:focus {
+           border: 1px solid $theme-blue-btn;@include transition(0.5s);
+        }
+
+        .btn-inline {
+            width: 100%;
+        
+        }
+
+
+    }
+
+
+
+
+
+
+    .contact_row{
+    	position: relative;
+        background: $heading-color;
+         border-radius: 10px;
+          border: solid 10px $white;
+          padding: 150px 160px 80px 160px;
+-webkit-transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -ms-transform: translateY(20%);
+    transform: translateY(20%);
+
+        @media #{$lg}{
+            padding: 50px 60px 50px 60px;
+        }
+        @media #{$md}{
+            padding: 50px 60px 50px 60px;
+-webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+            
+        }
+        @media #{$xs}{
+           padding: 50px 60px 50px 60px;
+-webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+
+        }
+
+
+    	.section_title{
+    		h2.title{
+    			color: $white;
+    		}
+    	}
+    	.col_info{
+    		position: relative;
+			        @media #{$md}{
+			            margin-bottom: 15px
+			        }
+			        @media #{$xs}{
+			            margin-bottom: 15px
+			        }
+
+    		&::before{
+			    content: "";
+			    background:  $white;
+			    opacity: 0.2;
+			    border-radius: 5px;
+			    width: 100%;
+			    height: 81%;
+			    position: absolute;
+		
+			        @media #{$md}{
+			            height:100%;left: 0;
+			        }
+			        @media #{$xs}{
+			            height:100%;left: 0;
+			        }
+    		}
+
+    		.contact_info{
+    			padding: 22px 25px;
+			        @media #{$lg}{
+			            padding: 22px 15px;
+			        }
+			        @media #{$md}{
+			            padding: 22px 15px;
+			        }
+			        @media #{$xs}{
+			            padding: 22px 15px;
+			        }
+        
+  					
+
+    		}
+
+  			.single_info{
+
+
+  				.info_icon{
+  					img{
+			        @media #{$lg}{
+			            width: 50%;
+			        }
+			        @media #{$md}{
+			           width: 50%;
+			        }
+			        @media #{$xs}{
+			           width: 50%;
+			        }
+        
+  					}
+  				}
+  				.info_content{
+  					p{
+  							color: $white;
+  					}
+  				}
+
+  			}
+    	}
+
+      &:before {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: url(../images/normal/contact_bg.png) no-repeat  right ;
+
+       background-position : calc(100% - 0px) 0;
+
+        }
+
+
+
+
+
+    }
+
+
+
+
+  .virus-shape{
+    
+
+    position: absolute;
+
+
+     -webkit-animation: rotation 20s infinite linear;
+
+
+    @-webkit-keyframes rotation {
+            from {
+                    -webkit-transform: rotate(0deg);
+            }
+            to {
+                    -webkit-transform: rotate(359deg);
+            }
+    }
+
+
+    }
+
+    .one{
+bottom: 18%;
+    left: 65%;
+
+    @media #{$md}{
+    bottom: 3%;
+        left: 40%;
+    }
+
+
+
+    @media #{$xs}{
+bottom: 3%;
+    right: 0;
+    left: 0;
+    width: 30%;
+    text-align: center;
+    margin: 0px auto;
+    }
+
+    @media #{$sm}{
+bottom: 3%;
+    right: 0;
+    left: 0;
+    width: 30%;
+    text-align: center;
+    margin: 0px auto;
+    }
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+// For Home version two
+
+.contact_area2{
+    position: relative;z-index: 12;
+
+
+      .contact_thumb {
+      position: absolute;
+          top: 14%;
+          right: 0;
+          width: 48%;
+          height: 100%;
+
+        @media #{$md}{
+            position: relative;
+            width: 720px;
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        @media #{$xs}{
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        @media #{$sm}{
+            width: 540px;
+        }
+        
+        & .image{
+            & img{
+                
+            }
+        }
+
+
+
+          
+      }
+
+    .single_form{
+        position: relative;
+        z-index: 12;
+        & textarea,
+        & input{
+            width: 100%;
+            height: 55px;
+            border: 1px solid $theme-third-bg;
+            border-radius: 5px;
+            padding: 0 25px;
+            color: $body-color;
+            font-size: 16px;background: $theme-third-bg;@include transition(0.3s);
+        }
+        
+        & textarea{
+            height: 150px;
+            padding-top: 15px;
+            resize: none;
+            border-radius: 5px;background: $theme-third-bg;@include transition(0.3s);
+        }
+        & input:focus {
+           border: 1px solid $theme-orange-btn;@include transition(0.5s);
+        }
+        & textarea:focus {
+           border: 1px solid $theme-orange-btn;@include transition(0.5s);
+        }
+
+        .btn-outline {
+            width: 100%;
+        
+        }
+
+
+    }
+
+
+
+
+
+
+    .contact_row{
+        position: relative;
+        background: $heading-color;
+         border-radius: 10px;
+          border: solid 10px $white;
+          padding: 150px 160px 80px 160px;
+-webkit-transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -ms-transform: translateY(20%);
+    transform: translateY(20%);
+
+        @media #{$lg}{
+            padding: 50px 60px 50px 60px;
+        }
+        @media #{$md}{
+            padding: 50px 60px 50px 60px;
+-webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+            
+        }
+        @media #{$xs}{
+           padding: 50px 60px 50px 60px;
+-webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+
+        }
+
+
+        .section_title{
+            h2.title{
+                color: $white;
+            }
+        }
+        .col_info{
+            position: relative;
+                    @media #{$md}{
+                        margin-bottom: 15px
+                    }
+                    @media #{$xs}{
+                        margin-bottom: 15px
+                    }
+
+            &::before{
+                content: "";
+                background:  $white;
+                opacity: 0.2;
+                border-radius: 5px;
+                width: 100%;
+                height: 81%;
+                position: absolute;
+        
+                    @media #{$md}{
+                        height:100%;left: 0;
+                    }
+                    @media #{$xs}{
+                        height:100%;left: 0;
+                    }
+            }
+
+            .contact_info{
+                padding: 22px 25px;
+                    @media #{$lg}{
+                        padding: 22px 15px;
+                    }
+                    @media #{$md}{
+                        padding: 22px 15px;
+                    }
+                    @media #{$xs}{
+                        padding: 22px 15px;
+                    }
+        
+                    
+
+            }
+
+            .single_info{
+
+
+                .info_icon{
+                    img{
+                    @media #{$lg}{
+                        width: 50%;
+                    }
+                    @media #{$md}{
+                       width: 50%;
+                    }
+                    @media #{$xs}{
+                       width: 50%;
+                    }
+        
+                    }
+                }
+                .info_content{
+                    p{
+                            color: $white;
+                    }
+                }
+
+            }
+        }
+
+      &:before {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: url(../images/normal/contact_bg.png) no-repeat  right ;
+
+       background-position : calc(100% - 0px) 0;
+
+        }
+
+
+
+
+
+    }
+
+
+
+
+  .virus-shape{
+    
+
+    position: absolute;
+
+
+     -webkit-animation: rotation 20s infinite linear;
+
+
+    @-webkit-keyframes rotation {
+            from {
+                    -webkit-transform: rotate(0deg);
+            }
+            to {
+                    -webkit-transform: rotate(359deg);
+            }
+    }
+
+
+    }
+
+    .one{
+bottom: 18%;
+    left: 65%;
+
+    @media #{$md}{
+    bottom: 3%;
+        left: 40%;
+    }
+
+
+
+    @media #{$xs}{
+bottom: 3%;
+    right: 0;
+    left: 0;
+    width: 30%;
+    text-align: center;
+    margin: 0px auto;
+    }
+
+    @media #{$sm}{
+bottom: 3%;
+    right: 0;
+    left: 0;
+    width: 30%;
+    text-align: center;
+    margin: 0px auto;
+    }
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,465 @@
+
+
+
+/*===========================
+      10 Doctors css 
+===========================*/
+
+
+.doctors_team{
+
+
+position: relative;
+
+
+
+
+
+         // @media #{$md} {
+         //        height: auto; padding: 80px 0;
+         //  }
+
+         //  @media #{$xs} {
+         //        height: auto; padding: 80px 0;
+         //  }
+
+         //  @media #{$sm} {
+         //            height: auto; padding: 60px 0;
+         //  }
+
+        .section_title{
+
+
+            h2.title{
+                color: $heading-color;
+            }
+        }
+
+        .doctors_carousel{
+
+            position: relative;
+  
+
+
+
+
+
+
+
+            .doctors_item{
+
+                 margin: 30px 15px;
+          box-shadow: 0 0 50px 0 rgba(229, 246, 255, 0.81);
+
+
+                background: $white;@include transition(0.3s);
+               
+
+                     .dr_single_info{
+
+                        h5{
+                            @media #{$lg} {
+                               font-size: 20px;
+                            }
+
+                            @media #{$xs} {
+                                  font-size: 18px;
+                            }
+
+                            
+                        }
+                      
+
+                    }
+
+
+
+                &:hover{
+
+                box-shadow: 0 0 120px 0 rgba(229, 246, 255, 0.81);
+                background:  $theme-blue-btn;@include transition(0.5s);
+
+                     .dr_single_info{
+
+                        h5{
+                            color: $white;@include transition(0.5s);
+
+
+
+                        }
+                        span{
+                            color: $white;@include transition(0.5s);
+                        }
+
+                    }
+                    .doctor_social_list{
+                        ul{
+                            li{
+                                a{
+                                    color: $white; @include transition(0.5s);
+                                }
+                            }
+                        }
+                    }
+
+                }
+             
+
+
+               .dr_single_info{
+                padding-bottom: 15px;
+                    @include transition(0.3s);
+
+
+                        img{
+
+                            @media #{$md} {
+                               width: 100%
+                            }
+
+                            @media #{$xs} {
+                                 width: 100%
+                            }
+
+                        }
+
+
+                           }
+
+                .doctor_social_list{
+                        text-align: center;position: relative;
+                        padding-bottom: 15px;
+                        ul{
+                        list-style: outside none none;
+                            margin: 0;
+                            padding: 0;
+                            
+                          
+                            @media #{$md} {
+                                text-align: center;margin-top: 15px;top: -30px;
+                            }
+
+                            @media #{$xs} {
+                                text-align: center;margin-top: 15px;top: -40px;
+                            }
+
+
+                            li{
+                                display: inline-block;
+                                padding-right: 5px;
+                                width: 40px;
+                                
+                                    a{
+                                        color: $heading-color;
+                                        display: block;
+                                        padding: 6px 0px; @include transition(0.3s);
+
+                                        &:hover{
+                                            color: $theme-orange-btn; @include transition(0.5s);
+
+                                        }
+                                      }
+                                
+                            }
+                        }
+
+                    }
+
+
+
+
+            }
+
+
+
+
+
+
+            .slick-arrow.slick-next {
+                 i{
+                    font-size: 30px;padding-top: 5px
+                }
+            }
+             .slick-arrow.slick-prev {
+              
+                 right: auto;
+                right: 10px;
+                i{
+                    font-size: 30px;padding-top: 5px
+                }
+            }
+            .slick-arrow {
+                position: absolute;
+                top: -15%;
+                right: 60px;
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                -o-transform: translateY(-50%);
+                transform: translateY(-50%);
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                font-size: 16px;
+                color: $white;background: $theme-blue-btn;
+      
+                cursor: pointer;z-index: 12;
+
+                    @media #{$md} {
+                        top: -12%;
+                    }
+
+                    @media #{$xs} {
+                      top: -2%;
+                    }
+
+
+
+            }
+
+            .slick-slide {
+                outline: none
+            }
+
+
+
+
+
+
+        }
+ 
+
+
+
+
+    
+
+
+
+}
+
+
+
+
+
+// For Home version two
+
+
+.doctors_team2{
+
+
+position: relative;
+
+
+
+
+        .section_title{
+
+
+            h2.title{
+                color: $heading-color;
+            }
+        }
+
+        .doctors_carousel{
+
+            position: relative;
+  
+
+
+
+
+
+
+
+            .doctors_item{
+
+                 margin: 30px 15px;
+          box-shadow: 0 0 50px 0 rgba(229, 246, 255, 0.81);
+
+
+                background: $white;@include transition(0.3s);
+               
+                     .dr_single_info{
+
+                        h5{
+                            @media #{$lg} {
+                               font-size: 20px;
+                            }
+
+                            @media #{$xs} {
+                                  font-size: 18px;
+                            }
+
+                            
+                        }
+                      
+
+                    }
+                &:hover{
+
+                box-shadow: 0 0 120px 0 rgba(229, 246, 255, 0.81);
+                background:  $theme-orange-btn;@include transition(0.5s);
+
+                     .dr_single_info{
+
+                        h5{
+                            color: $white;@include transition(0.5s);
+                        }
+                        span{
+                            color: $white;@include transition(0.5s);
+                        }
+
+                    }
+                    .doctor_social_list{
+                        ul{
+                            li{
+                                a{
+                                    color: $white; @include transition(0.5s);
+                                }
+                            }
+                        }
+                    }
+
+                }
+             
+
+
+               .dr_single_info{
+                padding-bottom: 15px;
+                    @include transition(0.3s);
+
+
+                        img{
+
+                            @media #{$md} {
+                               width: 100%
+                            }
+
+                            @media #{$xs} {
+                                 width: 100%
+                            }
+
+                        }
+
+
+                           }
+
+                .doctor_social_list{
+                        text-align: center;position: relative;
+                        padding-bottom: 15px;
+                        ul{
+                        list-style: outside none none;
+                            margin: 0;
+                            padding: 0;
+                            
+                          
+                            @media #{$md} {
+                                text-align: center;margin-top: 15px;top: -30px;
+                            }
+
+                            @media #{$xs} {
+                                text-align: center;margin-top: 15px;top: -40px;
+                            }
+
+
+                            li{
+                                display: inline-block;
+                                padding-right: 5px;
+                                width: 40px;
+                                
+                                    a{
+                                        color: $heading-color;
+                                        display: block;
+                                        padding: 6px 0px; @include transition(0.3s);
+
+                                        &:hover{
+                                            color: $theme-orange-btn; @include transition(0.5s);
+
+                                        }
+                                      }
+                                
+                            }
+                        }
+
+                    }
+
+
+
+
+            }
+
+
+
+
+
+
+            .slick-arrow.slick-next {
+                 i{
+                    font-size: 30px;padding-top: 5px
+                }
+            }
+             .slick-arrow.slick-prev {
+              
+                 right: auto;
+                right: 10px;
+                i{
+                    font-size: 30px;padding-top: 5px
+                }
+            }
+            .slick-arrow {
+                position: absolute;
+                top: -15%;
+                right: 60px;
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                -o-transform: translateY(-50%);
+                transform: translateY(-50%);
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                font-size: 16px;
+                color: $white;background: $theme-orange-btn;
+      
+                cursor: pointer;z-index: 12;
+
+                    @media #{$md} {
+                        top: -12%;
+                    }
+
+                        @media #{$xs} {
+                      top: -2%;
+                    }
+
+
+
+            }
+
+            .slick-slide {
+                outline: none
+            }
+
+
+
+
+
+
+        }
+ 
+
+
+
+
+    
+
+
+
+}
+
+
+
+
+

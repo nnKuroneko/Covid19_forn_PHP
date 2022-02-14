@@ -1,0 +1,143 @@
+
+
+/*===========================
+   11  Map css
+===========================*/
+
+.map_area{
+
+        background: $theme-primary-bg url(../images/normal/map.png) no-repeat  center center;
+
+       background-position : 50% 45%;
+
+	      @media #{$md} {
+	          background-position : 50% 40%;
+	      }
+
+	      @media #{$xs} {
+	          background-position : 50% 40%;
+	      }
+	      @media #{$sm} {
+	          background-position : 50% 40%;
+	      }
+
+
+
+       .map_row{
+
+    padding-top: 600px;
+
+		      @media #{$md} {
+		         padding-top: 450px;
+		      }
+
+		      @media #{$xs} {
+		          padding-top: 300px;
+		      }
+		      @media #{$sm} {
+		          padding-top: 300px;
+		      }
+    	.counter_count{
+
+    		h2{
+
+    			span{
+    				color: $theme-blue-btn;font-weight: 700;font-family: $font-1;font-size: 50px;
+		      @media #{$md} {
+		            font-size: 45px;
+		      }
+
+		      @media #{$xs} {
+		             font-size: 35px;
+		      }
+		      @media #{$sm} {
+		             font-size: 25px;
+		      }
+
+
+    			}
+    		}
+    		span{
+    			color: $heading-color;font-weight: 700;font-family: $font-2;font-size: 30px
+    		}
+    	}
+
+       }
+
+
+
+
+
+
+}
+
+
+
+// For home version two 
+
+.map_area2{
+
+        background: $theme-third-bg url(../images/normal/map.png) no-repeat  center center;
+
+       background-position : 50% 45%;
+
+	      @media #{$md} {
+	          background-position : 50% 40%;
+	      }
+
+	      @media #{$xs} {
+	          background-position : 50% 40%;
+	      }
+	      @media #{$sm} {
+	          background-position : 50% 40%;
+	      }
+
+
+
+       .map_row{
+
+    padding-top: 600px;
+
+		      @media #{$md} {
+		         padding-top: 450px;
+		      }
+
+		      @media #{$xs} {
+		          padding-top: 300px;
+		      }
+		      @media #{$sm} {
+		          padding-top: 300px;
+		      }
+    	.counter_count{
+
+    		h2{
+
+    			span{
+    				color: $theme-orange-btn;font-weight: 700;font-family: $font-1;font-size: 50px;
+		      @media #{$md} {
+		            font-size: 45px;
+		      }
+
+		      @media #{$xs} {
+		             font-size: 35px;
+		      }
+		      @media #{$sm} {
+		             font-size: 25px;
+		      }
+
+
+    			}
+    		}
+    		span{
+    			color: $heading-color;font-weight: 700;font-family: $font-2;font-size: 30px
+    		}
+    	}
+
+       }
+
+
+
+
+
+
+}

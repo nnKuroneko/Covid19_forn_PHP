@@ -1,0 +1,116 @@
+
+
+
+/*===========================
+       3.SLIDER css 
+===========================*/
+
+
+
+
+.slider-content{
+    padding-top: 145px;
+    padding-bottom: 150px;
+    
+    & .sub-title{
+        font-size: 80px;
+        font-weight: 700;
+        letter-spacing: 2px;
+       
+        color: $white;
+        
+     
+        @media #{$lg}{
+            font-size: 45px;
+        }
+        @media #{$md}{
+            font-size: 40px;
+        }
+        @media #{$xs}{
+            font-size: 35px;
+        }
+        @media #{$sm}{
+            font-size: 30px;
+        }
+    }
+    & .slider-title{
+        font-size: 80px;
+        font-weight: 700;
+        letter-spacing: 2px;
+       
+        color: $theme-orange-btn;
+        
+  
+        @media #{$lg}{
+            font-size: 45px;
+        }
+        @media #{$md}{
+            font-size: 40px;
+        }
+        @media #{$xs}{
+            font-size: 35px;
+        }
+        @media #{$sm}{
+            font-size: 30px;
+        }
+    }
+    & .text{
+        margin-top: 10px;margin-bottom:10px;color: $white;
+    }
+    
+    & .main-btn{
+        margin-top: 40px;
+    }
+    
+    &.content-2{
+        & .sub-title,
+        & .slider-title,
+        & .text{
+            color: $white;
+        }
+    }
+}
+
+.home-slider{
+    & .slick-arrow{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        @include transform(translateY(-50%));
+        z-index: 9;
+        height: 110px;
+        width: 35px;
+        text-align: center;
+        line-height: 110px;
+        background-color: rgba(2, 2, 2, 0.2);
+        color: $white;
+        font-size: 20px;
+        opacity: 0;
+        visibility: hidden;
+        @include transition(0.3s);
+        cursor: pointer;
+        
+        & i{
+            
+        }
+        &.next{
+            left: auto;
+            right: 0;
+        }
+    }
+    
+    &:hover{
+        & .slick-arrow{
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+
+
+
+
+
+
+
